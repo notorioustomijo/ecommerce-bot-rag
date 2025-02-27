@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import ekaite24 from '../assets/ekaite24.png';
-import gmailLink from '../assets/gmailLink.svg';
-import whatsappLink from '../assets/whatsappLink.svg';
-import ekaiteLogo from '../assets/ekaite-logo.svg';
-import chevronDown from '../assets/chevron-down.svg';
-import connectLoader from '../assets/connecting.gif';
+import ekaite24 from '/assets/ekaite24.png';
+import gmailLink from '/assets/gmailLink.svg';
+import whatsappLink from '/assets/whatsappLink.svg';
+import ekaiteLogo from '/assets/ekaite-logo.svg';
+import chevronDown from '/assets/chevron-down.svg';
+import connectLoader from '/assets/connecting.gif';
 import Chatbot from './Chatbot';
 export default function PageContent() {
     const [showChatbot, setShowChatbot] = useState(false);
@@ -38,7 +38,7 @@ export default function PageContent() {
                         </li>
                         <li>
                             <strong>Support Answers: </strong> 
-                            Handle FAQs e.g. "Do you ship to Lagos (or your city)?"
+                            Handle FAQs e.g. "Do you ship to Lagos?", "What's your return policy?"
                         </li>
                         <li>
                             <strong>Smart Retrieval: </strong> 
